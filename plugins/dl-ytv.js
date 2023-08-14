@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     }
 
     if (format.contentLength / (1024 * 1024) >= limit) {
-      return m.reply(`≡ *ABHU YTDL*\n\n▢ *⚖️Size*: ${format.contentLength / (1024 * 1024).toFixed(2)}MB\n▢ *🎞️Quality*: ${format.qualityLabel}\n\n▢ The File Exceeds The Download Limit *+${limit} MB*`);
+      return m.reply(`≡ *VECTOR YTDL*\n\n▢ *⚖️Size*: ${format.contentLength / (1024 * 1024).toFixed(2)}MB\n▢ *🎞️Quality*: ${format.qualityLabel}\n\n▢ The File Exceeds The Download Limit *+${limit} MB*`);
     }
 
     const tmpDir = os.tmpdir();
