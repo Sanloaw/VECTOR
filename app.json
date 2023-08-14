@@ -1,0 +1,18 @@
+{
+  "name": "𝚅𝙴𝙲𝚃𝙾𝚁",
+  "description": " WhatsApp Bot",
+  "repository": "https://github.com/khadherinc/VECTOR",
+  "logo": "https://imgur.com/a/svb4KiN.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "VECTOR", "GURU-bot-md", "GURU-bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
