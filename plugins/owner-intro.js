@@ -5,7 +5,7 @@ const logo = 'https://i.imgur.com/BsyNXqH.jpeg'
 
 Function(
 	{
-		pattern: 'intro ?(.*)',
+		pattern: 'khadher ?(.*)',
 		fromMe: true,
 		desc: 'Shows My Intro',
 		type: 'misc',
@@ -23,11 +23,11 @@ Function(
         options.linkPreview = {
                renderLargerThumbnail: true,
                showAdAttribution: true,
-               title: "𝔸𝔹ℍ𝕀𝕊ℍ𝔼𝕂 𝕊𝕌ℝ𝔼𝕊ℍ",
+               title: "𝙰𝙱𝙳𝚄𝙻 𝙺𝙷𝙰𝙳𝙷𝙴𝚁",
                body: "ᴄʟɪᴄᴋ ʜᴇʀᴇ 🦋 !!",
                mediaType: 1,
                thumbnail: thumb,
-               sourceUrl: "http://wa.me/919074692450?text=_៚ʜᴇʟʟᴏ+🪄_"
+               sourceUrl: "http://wa.me/917560920774text=_៚ʜᴇʟʟᴏ+🪄_"
              }
         // ADDED */ TO REMOVE LINK PREVIEW TYPE
         options.quoted = {
@@ -47,12 +47,12 @@ Function(
         
 let messages = await generateWAMessage(message.jid, { text: `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
 │       *「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」*
-│ *Name      :* 𝔸𝔹ℍ𝕀𝕊ℍ𝔼𝕂 𝕊𝕌ℝ𝔼𝕊ℍ
+│ *Name      :* 𝙰𝙱𝙳𝚄𝙻 𝙺𝙷𝙰𝙳𝙷𝙴𝚁
 │ *Place       :* 𝙺𝙴𝚁𝙰𝙻𝙰
 │ *Gender   :*  𝙼𝚊𝚕𝚎
 │ *Age          :* 15
-│ *Phone     :* wa.me/919074692450
-│ *IG ID        :* abhishek_ser
+│ *Phone     :* wa.me/917560920774
+│ *IG ID        :* abd_khadher___
 │ *Status     :* _
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙`}, {quoted: message.quoted || ''})
 
