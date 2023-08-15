@@ -136,7 +136,7 @@ const handler = async (m, {command, conn}) => {
   }
 
 if (command == 'ff') {
-    const res = (await axios.get(`https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/Abhi-Json/random-ff`)).data;
+    const res = (await axios.get(`https://raw.githubusercontent.com/khadherinc/VECTOR/main/src/khadherinc-Json/random-ff`)).data;
     const res2 = await res[Math.floor(res.length * Math.random())];
     await conn.reply(m.chat, global.wait, m);
     conn.sendMessage(m.chat, {image: {url: res2}, caption: `_${command}_`.trim()}, {quoted: m});
