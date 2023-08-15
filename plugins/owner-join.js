@@ -31,7 +31,7 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
  
  if (e.length) await conn.reply(res, `*🎯 Hello Guys 𝙑𝙀𝘾𝙏𝙊𝙍 Bot Here!*
 
-@919074692450 He Is My Creator If You Have Any Doubt
+@917560920774 He Is My Creator If You Have Any Doubt
 I Was Invited By *${m.name}*`, m, {
     mentions: d
      }).then(async () => {
