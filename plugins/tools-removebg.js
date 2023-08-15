@@ -35,7 +35,7 @@ const handler = async (m, { conn, text }) => {
     fs.writeFileSync('no-bg.png', imageData);
 
     // Add the caption to the image
-    const caption = 'Made By ABHISHEK-SER✅';
+    const caption = 'Made By VECTOR✅';
     conn.sendFile(m.chat, 'no-bg.png', '', caption, m);
   } catch (e) {
     console.error(e);
