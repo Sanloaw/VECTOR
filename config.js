@@ -56,7 +56,7 @@ global.dygp = 'https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD'
 global.fgsc = 'https://github.com/khadherinc/VECTOR' 
 global.fgyt = 'https://www.instagram.com/abd_khadher___'
 global.fgpyp = 'https://www.instagram.com/abd_khadher___'
-global.fglog = 'https://imgur.com/a/svb4KiN.jpg' 
+global.fglog = 'https://pbxt.replicate.delivery/VeNXOQLbg1VKBa4Y5hrVam5kjDfYPTX0ekzTIompeezUWfiWE/out.png' 
 
 //imagen
 global.imagen1 = fs.readFileSync('./src/khadherinc.jpg')
