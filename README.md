@@ -18,7 +18,7 @@
 
 ***
 
-#### SETUP
+  #### SETUP
 
 1. Fork The Repo
     <br>
@@ -26,7 +26,7 @@
 
 2. Scan The Qr Code And Upload khadherinc.data.json To Your Fork🎯(Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href="https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1"><img title="𝚔𝚑𝚊𝚍𝚑𝚎𝚛𝚒𝚗𝚌 Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://replit.com/@cvqwkzc64y/khadherinc-vector-qr?v=1"><img title="𝚔𝚑𝚊𝚍𝚑𝚎𝚛𝚒𝚗𝚌 Scan Qr" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 
