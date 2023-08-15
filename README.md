@@ -5,7 +5,7 @@
   
 <p align="center">  
   <a href="https://youtube.com/@comedymelodych8468">
-    <img alt=𝚅𝙴𝙲𝚃𝙾𝚁 height="416" src="htps://imgur.com/a/svb4KiN.png">
+    <img alt=𝚅𝙴𝙲𝚃𝙾𝚁 height="300" src="https://pbxt.replicate.delivery/VeNXOQLbg1VKBa4Y5hrVam5kjDfYPTX0ekzTIompeezUWfiWE/out.png">
    
 </a> 
     
