@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command}) => {
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `❌ The User Is Not Found In My Database`
-let pp = './Abhi.jpg'
+let pp = './khadherinc.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
@@ -249,16 +249,9 @@ ${readMore}
 │ _${usedPrefix}technews_
 ╰─────────────⦁
 
-╭───❮ *𝙽𝚂𝙵𝚆 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}on nsfw_
-│ _${usedPrefix}off nsfw_
-│ _${usedPrefix}hentais *<text>*_
-│ _${usedPrefix}xnxxdl <link>_
-╰────────────⦁
-
-╭───❮  *🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁* ❯
+╭───❮  *🎯𝙠𝙝𝙖𝙙𝙝𝙚𝙧𝙞𝙣𝙘* ❯
 │      𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈
-│   𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷☘️
+│   𝘼𝘽𝘿𝙐𝙇 𝙆𝙃𝘼𝘿𝙃𝙀𝙍☘️
 ╰────────────⦁`  
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react('📃')
