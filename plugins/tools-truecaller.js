@@ -1,4 +1,4 @@
-//ABHISHEK-SER-BOT
+//𝙑𝙀𝘾𝙏𝙊𝙍 BY 𝘼𝘽𝘿𝙐𝙇 𝙆𝙃𝘼𝘿𝙃𝙀𝙍
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text }) => {
