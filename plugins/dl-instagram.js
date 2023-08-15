@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, args, command, text }) => {
     throw `*❌No Video Found Or Invalid Response From API.`;
   }
 
-  let cap = `_©ABHISHEK-SER_`;
+  let cap = `©abd_khadher___`;
 
   conn.sendFile(m.chat, api_response.result[0], 'instagram.mp4', cap, m);
 }
