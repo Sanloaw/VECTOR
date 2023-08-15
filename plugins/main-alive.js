@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Abhi.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './khadherinc.jpg')
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -40,7 +40,7 @@ let str = `
 ╰────────────⦁
 │ *Bot Name* : ${botname}
 │ *Owner Name* : ${author}
-│ *Developer Name* : 𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷
+│ *Developer Name* : 𝘼𝘽𝘿𝙐𝙇 𝙆𝙃𝘼𝘿𝙃𝙀𝙍
 │ *Platform* : linux
 │ *Uptime* : ${uptime}
 │ *Experience:* ${exp}
