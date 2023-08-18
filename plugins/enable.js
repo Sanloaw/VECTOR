@@ -9,7 +9,6 @@ const sections = [
 	{title: "🔮 | Welcome", rowId: `${usedPrefix + command} welcome`},
 	{title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
         {title: "🎵 | Bgmbot", rowId: `${usedPrefix + command} bgmbot`},
-	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
 	{title: "🧬 | OnlyEnglish", rowId: `${usedPrefix + command} onlyenglish`},
 	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
     {title: "🚫 | Antidelete", rowId: `${usedPrefix + command} antidelete`},
@@ -205,7 +204,6 @@ const listMessage = {
 ┌─⊷ *ADMIN*
 ▢ welcome
 ▢ antilink
-▢ nsfw
 ▢ onlyenglish
 ▢ autosticker
 ▢ detect
