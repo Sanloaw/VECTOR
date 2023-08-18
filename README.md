@@ -72,7 +72,7 @@
 ---
  ## Guide
 
- - [Termux Hosting Guide](https://github.com/khadherincVECTOR/wiki.git)
+[Termux Hosting Guide]([https://github.com/khadherincVECTOR/wiki)
  
  
  ## Support
