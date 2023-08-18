@@ -36,48 +36,48 @@
 
 ### Deploy Codespace
 
-<a href="https://github.com/codespaces/new"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-CODESPACE"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
 
 ---
 ### Deploy Heroku 
 
-<a href="https://heroku.com/deploy?template=https://github.com/khadherinc/VECTOR/"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-HEROKU"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
 ---
 ### Deploy Railway
 
-<a href="https://railway.app/new"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-RAILWAY"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
 
 
 ---
 ### Deploy Mogenius
 
-<a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=black&style=for-the-badge&logo=genius"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-MOGENIUS"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=black&style=for-the-badge&logo=genius"></a>
 
 ---
 ### Deploy Coolify
 
-<a href="https://coolify.io/"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Coolify" src="https://img.shields.io/badge/DEPLOY COOLIFY-h?color=black&style=for-the-badge&logo=coolify"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-COOLIFY"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Coolify" src="https://img.shields.io/badge/DEPLOY COOLIFY-h?color=black&style=for-the-badge&logo=coolify"></a>
 
 ---
 ### Deploy Koyeb
 
-<a href="https://app.koyeb.com"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-KOYEB"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
 
 ---
 ### Deploy Replit
 
-<a href="https://replit.com/github/khadherinc/VECTOR"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
+<a href="https://github.com/khadherinc/VECTOR/wiki/DEPLOY-ON-REPLIT"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
 
 ---
- ## Guide
+### Termux Guide
 
-[Termux Hosting Guide](https://github.com/khadherinc/VECTOR/wiki)
- 
- 
+<a href="https://github.com/khadherinc/VECTOR/wiki/TERMUX-GUIDE"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 Deploy termux" src="https://img.shields.io/badge/TERMUX GUIDE-h?color=black&style=for-the-badge&logo=Termux"></a>
+
+
  ## Support
 
-SUPPORT GROUP: <a href="https://chat.whatsapp.com/HMJQZqjClNgKOitnskMpbJ"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
+ <a href="https://chat.whatsapp.com/HMJQZqjClNgKOitnskMpbJ"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
 
 - **Star ⭐ The Repo If You Like 𝚅𝙴𝙲𝚃𝙾𝚁**
 
