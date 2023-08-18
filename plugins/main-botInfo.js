@@ -62,7 +62,7 @@ let infobt = `
 ▢ GitHub :
   • https://github.com/khadherinc
 ▢ Telegram : 
-  • hhttps://t.me/abd_khadher
+  • https://t.me/abd_khadher
 
 
  *≡ S E R V E R*
