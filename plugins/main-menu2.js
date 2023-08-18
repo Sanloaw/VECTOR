@@ -7,10 +7,10 @@ let m2 = `
 
 ▢ If you have more audios
 send me by wa.me/917560920774 the *audio + command* with which it will respond
-*No* _hy voices_
+*No* _18+ voices_
 
 
-┌─⊷ *AUDIOS*
+┌─⊷ *REG MEN*
 ▢ Bot
 ▢ Good morning
 ▢ Good afternoon
@@ -22,8 +22,8 @@ send me by wa.me/917560920774 the *audio + command* with which it will respond
 const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     
     conn.sendHydrated(m.chat, m2, '▢ VECTOR  ┃ ᴮᴼᵀ\n▢ Follow me in Instagram\nhttps://www.instagram.com/abd_khadher___\n', pp, 'wa.me/917560920774', 'WHATSAPP', null, null, [
-     ['⏍ Info', '/botinfo'],
-      ['⌬ Groups', '/groups']
+     ['⏍ Info', '.botinfo'],
+      ['⌬ Groups', '.groups']
     ], m)
     
 }
