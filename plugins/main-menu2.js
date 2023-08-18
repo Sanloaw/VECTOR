@@ -19,7 +19,7 @@ send me by wa.me/917560920774 the *audio + command* with which it will respond
 ┌─⊷ *VIDEO/GIF*
 ▢ Nice night
 └──────────────`
-const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
+const pp = await (await fetch('https://pbxt.replicate.delivery/VeNXOQLbg1VKBa4Y5hrVam5kjDfYPTX0ekzTIompeezUWfiWE/out.png')).buffer()
     
     conn.sendHydrated(m.chat, m2, '▢ VECTOR  ┃ ᴮᴼᵀ\n▢ Follow me in Instagram\nhttps://www.instagram.com/abd_khadher___\n', pp, 'wa.me/917560920774', 'WHATSAPP', null, null, [
      ['⏍ Info', '.botinfo'],
