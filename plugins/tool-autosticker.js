@@ -30,7 +30,7 @@ if (isUrl(m.text)) stiker = await createSticker(false, args[0], '', author, 20)
 else return
 }
 if (stiker) {
-let img = await(await fetch('https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg')).buffer()  
+let img = await(await fetch('https://pbxt.replicate.delivery/VeNXOQLbg1VKBa4Y5hrVam5kjDfYPTX0ekzTIompeezUWfiWE/out.png')).buffer()  
 await this.sendFile(m.chat, stiker, 'error.jpg', null, m, false, { contextInfo: { showAdAttribution: true }})    
 }}
 return !0
