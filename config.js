@@ -8,7 +8,7 @@ import axios from 'axios'
 
 global.owner = [
   ['917560920774', 'ABDUL KHADHER', true],
-  [''],
+  ['917025191792,'khadherinc',true],
   [''] 
 ] //Number of owners
 
@@ -49,8 +49,8 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.botname = '𝚅𝙴𝙲𝚃𝙾𝚁'
 global.premium = 'true'
-global.packname = '𝚅𝙴𝙲𝚃𝙾𝚁🎯𝙰𝙱𝙳𝚄𝙻 𝙺𝙷𝙰𝙳𝙷𝙴𝚁☘️' 
-global.author = '𝙰𝙱𝙳𝚄𝙻 𝙺𝙷𝙰𝙳𝙷𝙴𝚁' 
+global.packname = '🎯𝚅𝙴𝙲𝚃𝙾𝚁☘️' 
+global.author = 'UNKNOWN' 
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/abd_khadher___\n' 
 global.dygp = 'https://chat.whatsapp.com/HMJQZqjClNgKOitnskMpbJ'
 global.fgsc = 'https://github.com/khadherinc/VECTOR' 
