@@ -1,1 +1,79 @@
-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
+console.log('✅ STARTING VECTOR ...')
+
+import { join, dirname } from 'path'
+import { createRequire } from 'module';
+import { fileURLToPath } from 'url'
+import { setupMaster, fork } from 'cluster'
+import { watchFile, unwatchFile } from 'fs'
+import cfonts from 'cfonts';
+import { createInterface } from 'readline'
+import yargs from 'yargs'
+
+// https://stackoverflow.com/a/50052194
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
+const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
+const { say } = cfonts
+const rl = createInterface(process.stdin, process.stdout)
+
+say('𝙑𝙀𝘾𝙏𝙊𝙍', {
+  font: 'chrome',
+  align: 'center',
+  gradient: ['red', 'magenta']
+})
+say(`'${name}' By @abd_khadher___._`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']
+})
+
+var isRunning = false
+/**
+ * Start a js file
+ * @param {String} file `path/to/file`
+ */
+function start(file) {
+  if (isRunning) return
+  isRunning = true
+  let args = [join(__dirname, file), ...process.argv.slice(2)]
+  say([process.argv[0], ...args].join(' '), {
+    font: 'console',
+    align: 'center',
+    gradient: ['red', 'magenta']
+  })
+  setupMaster({
+    exec: args[0],
+    args: args.slice(1),
+  })
+  let p = fork()
+  p.on('message', data => {
+    console.log('[RECEIVED]', data)
+    switch (data) {
+      case 'reset':
+        p.process.kill()
+        isRunning = false
+        start.apply(this, arguments)
+        break
+      case 'uptime':
+        p.send(process.uptime())
+        break
+    }
+  })
+  p.on('exit', (_, code) => {
+    isRunning = false
+    console.error('❎ An Unexpected Error Occurred:', code)
+    if (code === 0) return
+    watchFile(args[0], () => {
+      unwatchFile(args[0])
+      start(file)
+    })
+  })
+  let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+  if (!opts['test'])
+    if (!rl.listenerCount()) rl.on('line', line => {
+      p.emit('message', line.trim())
+    })
+  // console.log(p)
+}
+
+start('main.js')
