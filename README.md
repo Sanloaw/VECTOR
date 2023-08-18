@@ -17,6 +17,11 @@
 𝚅𝙴𝙲𝚃𝙾𝚁 Multi Device Whatsapp Bot.
 
 ***
+### VECTOR PLUGINS
+
+<a href="https://github.com/khadherinc/VECTOR/wiki/PLUGINS"><img title="𝚅𝙴𝙲𝚃𝙾𝚁 PLUGINS" src="https://img.shields.io/badge/VECTOR PLUGINS-h?color=black&style=for-the-badge&logo=whatsapp bot"></a>
+***
+
 
   #### SETUP
 
