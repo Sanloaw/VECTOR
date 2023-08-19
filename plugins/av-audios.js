@@ -37,6 +37,11 @@ handler.all = async function (m) {
     let av = 'src/mp3/hi.mp3'
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
+    
+    if (/^khadher|KHADHER|khadherinc|vector|VECTOR|OWNER|owner$/i.test(m.text) ) {
+    let av = 'src/mp3/khadherinc.mp3'
+    this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+   }
   
 return !0
  }
