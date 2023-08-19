@@ -1,8 +1,26 @@
 let handler = m => m
 handler.all = async function (m) {
 
+     if ("khadher".test(m.text) ) {
+      let av = 'src/mp3/khadher.mp3'
+      this.sendPresenceUpdate('recording', m.chat);
+      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+      }
+
+     if ("khadher".test(m.text) ) {
+      let av = 'src/mp3/alive.mp3'
+      this.sendPresenceUpdate('recording', m.chat);
+      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+      }
+
+     if ("vector".test(m.text) ) {
+      let av = 'src/mp3/alive.mp3'
+      this.sendPresenceUpdate('recording', m.chat);
+      this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+      }
+
     if (/^.alive$/i.test(m.text) ) {
-      let av = 'src/mp3/khadherinc.mp3'
+      let av = 'src/mp3/alive.mp3'
       this.sendPresenceUpdate('recording', m.chat);
       this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
       }
