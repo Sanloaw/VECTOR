@@ -5,8 +5,8 @@ let handler  = async (m, { conn }) => {
   if (!res.ok) throw await res.text()
 	    let json = await res.json()
 
-  let guru = `${json.result}`
-  conn.sendMessage(m.chat, { text: guru, mentions: [m.sender] }, { quoted: m })
+  let khadherinc = `${json.result}`
+  conn.sendMessage(m.chat, { text: khadherinc, mentions: [m.sender] }, { quoted: m })
 }
 handler.help = ['shayari']
 handler.tags = ['fun']
