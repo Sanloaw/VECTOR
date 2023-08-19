@@ -4,7 +4,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida* `;
+  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] NAME OF MISSING SONG, PLEASE ENTER THE COMMAND PLUS THE NAME/TITLE OF A SONG*\n\n*—◉ EXAMPLE:*\n*${usedPrefix + command} Good Feeling - Flo Rida* `;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
@@ -23,7 +23,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ❏ 🆔 *ID:* ${yt_play[0].videoId}
 ❏ 🪬 *Tipo:* ${yt_play[0].type}
 ❏ 🔗 *Link:* ${yt_play[0].url}\n
-❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+❏ *_SENDING ${additionalText}, WAIT A MINUTE．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play3' || command == 'playdoc') {
       try {
@@ -48,7 +48,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
             conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*', m);
+            await conn.reply(m.chat, '*[❗] UNABLE TO DOWNLOAD AUDIO*', m);
           }
         }
       }
@@ -77,13 +77,13 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const n4 = lolh.result.thumbnail;
             await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `▢ 𝚃𝙸𝚃𝚄𝙻𝙾: ${n}\n▢ 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾: ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
           } catch {
-            await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝚅𝙸𝙳𝙴𝙾*', m);
+            await conn.reply(m.chat, '*[❗] UNABLE TO DOWNLOAD VIDEO*', m);
           }
         }
       }
     }
   } catch {
-    throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*';
+    throw '*[❗𝐈𝐍𝐅𝐎❗] Please, try again in a few minutes*';
   }
 };
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
