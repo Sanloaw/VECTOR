@@ -21,7 +21,7 @@ let handler = async (m, { conn, text }) => {
     let data = json.data[0];
 
     // Add custom property.
-    data.creator = 'GURU';
+    data.creator = 'KHADHER';
 
     let response = '';
 
