@@ -11,8 +11,8 @@ https://t.me/abd_khadher
 https://instagram.com/abd_khadher___
 
 `.trim())
-handler.help = ['gpabhi']
+handler.help = ['gpkdr']
 handler.tags = ['main']
-handler.command = ['groups', 'gpabhi', 'abhigp', 'groupabhi','group'] 
+handler.command = ['groups', 'gpkdr', 'kdrgp', 'vector','group'] 
 
 export default handler
