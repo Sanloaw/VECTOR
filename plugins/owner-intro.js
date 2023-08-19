@@ -5,7 +5,7 @@ const logo = 'https://i.imgur.com/BsyNXqH.jpeg'
 
 Function(
 	{
-		pattern: 'khadher',
+		pattern: 'khadher ?(.*)',
 		fromMe: true,
 		desc: 'Shows My Intro',
 		type: 'misc',
