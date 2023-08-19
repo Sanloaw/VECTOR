@@ -1,35 +1,216 @@
+// IF YOU COPYING THESES GIVE CREDITS TO ME 
+//MADE BY KHADHERINC
+// https://github.com/khadherinc/VECTOR
+
 import fetch from 'node-fetch'
 
 let handler = async function (m, { conn, text, usedPrefix }) {
   
 let m2 = `
-≡ _Use these commands without the prefix_
+≡ _Use the commands with the prefix_ \`\`\`${usedPrefix}\`\`\` 
 
-▢ If you have more audios
-send me by wa.me/917560920774 the *audio + command* with which it will respond
-*No* _18+ voices_
+▢ ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‎
+Ⓟ = Premium
+ⓓ = Diamonds
+-----  -----  -----  -----  -----
+  ≡ *ALL MENU LIST*
 
+┌─⊷ *ABOUT*
+▢ .blocklist
+▢ .info
+▢ .owner
+▢ .donate
+▢ .gpkdr
+▢ .listprem
+▢ .help
+▢ .audios
+▢ .ping
+▢ .runtime
+└───────────
 
-┌─⊷ *REG MEN*
-▢ Bot
-▢ Good morning
-▢ Good afternoon
-▢ Good night
-└──────────────
-┌─⊷ *VIDEO/GIF*
-▢ Nice night
-└──────────────`
-const pp = await (await fetch('https://pbxt.replicate.delivery/VeNXOQLbg1VKBa4Y5hrVam5kjDfYPTX0ekzTIompeezUWfiWE/out.png')).buffer()
-    
-    conn.sendHydrated(m.chat, m2, '▢ VECTOR  ┃ ᴮᴼᵀ\n▢ Follow me in Instagram\nhttps://www.instagram.com/abd_khadher___\n', pp, 'wa.me/917560920774', 'WHATSAPP', null, null, [
-     ['⏍ Info', '.botinfo'],
-      ['⌬ Groups', '.groups']
-    ], m)
-    
+┌─⊷ *GAMES*
+▢ .dado
+▢ .delttt
+▢ .Math <mode>
+▢ .ppt <stone/paper/scissors>
+▢ .slot <gamble>
+▢ .tictactoe <tag Someone>
+└───────────
+
+┌─⊷ *LEVELS AND ECO*
+▢ .adddi <@user>
+▢ .addxp <@user>
+▢ .balance
+▢ .daily
+▢ .leaderboard
+▢ .levelup
+▢ .mine
+▢ .rob
+▢ .buy
+▢ .buyall
+▢ .transfer [tip] [amount] [@tag]
+▢ .work
+└───────────
+
+┌─⊷ *REGISTER*
+▢ .reg <name.age>
+▢ .mysn
+▢ .unreg <Num Serie>
+└───────────
+
+┌─⊷ *STICKER*
+▢ .attp <text>
+▢ .emojimix <emoji+emoji> (ⓓ)
+▢ .getsticker (ⓓ)
+▢ .smaker (ⓓ)
+▢ .sticker
+▢ .toimg <sticker>
+▢ .tovid
+▢ .trigger <@user>
+▢ .ttp <text>
+▢ .take <name>|<author>
+└───────────
+
+┌─⊷ *IMAGE*
+▢ .tvid (ⓓ)
+▢ .imagen (ⓓ)
+▢ .girl (ⓓ)
+▢ .meme (ⓓ)
+▢ .pinterest
+▢ .wallpaper (ⓓ)
+└───────────
+
+┌─⊷ *MAKER*
+▢ .gfx5 (ⓓ)
+▢ .neon (ⓓ)
+▢ .devil (ⓓ)
+▢ .wolf (ⓓ)
+▢ .phlogo (ⓓ)
+└───────────
+
+┌─⊷ *PREMIUM*
+▢ .gdrive (ⓓ) (Ⓟ)
+▢ .mediafire <url> (ⓓ)
+└───────────
+
+┌─⊷ *GROUP*
+▢ .add
+▢ .delete
+▢ .delwarn @user
+▢ .demote (@tag)
+▢ .infogp
+▢ .hidetag
+▢ .invite <917xxx>
+▢ .kick @user
+▢ .link
+▢ .poll <Guru|piro|xd>
+▢ .perfil
+▢ .promote
+▢ .resetlink
+▢ .setbye <text>
+▢ .group *open/close*
+▢ .setwelcome <text>
+▢ .simulate <event> @user
+▢ .staff
+▢ .tagall
+▢ .totag
+▢ .warn @user
+▢ .warns
+▢ .checkexpired
+└───────────
+
+┌─⊷ *EN/DISABLE OPTIONS*
+▢ .enable <option>
+▢ .disable <option>
+└───────────
+
+┌─⊷ *ANIME REACTIONS*
+▢ .kill @tag (ⓓ)
+▢ .kiss @tag (ⓓ)
+▢ .pat @tag (ⓓ)
+▢ .slap @tag (ⓓ)
+└───────────
+
+┌─⊷ *DOWNLOADERS*
+▢ .facebook <url> (ⓓ)
+▢ .gdrive (ⓓ) (Ⓟ)
+▢ .gitclone <url> (ⓓ)
+▢ .igstalk
+▢ .instagram <link ig> (ⓓ)
+▢ .mediafire <url> (ⓓ)
+▢ .play
+▢ .play2
+▢ .tiktok (ⓓ)
+▢ .tiktokstalk
+▢ .twitter <url> (ⓓ)
+▢ .ytmp3 <url> (ⓓ)
+▢ .ytsearch
+▢ .ytmp4 <link yt> (ⓓ)
+└───────────
+
+┌─⊷ *TOOLS*
+▢ .cal <equation>
+▢ .google (ⓓ)
+▢ .lyrics
+▢ .readmore <text1>|<text2>
+▢ .ssweb <url> (ⓓ)
+▢ .tourl
+▢ .trad <leng> <text>
+▢ .tts <lang> <teXTSs>
+▢ .wikipedia
+└───────────
+
+┌─⊷ *FUN*
+▢ .afk <razon>
+▢ .tomp3
+▢ .toav
+▢ .gay @user
+▢ .bot
+└───────────
+
+┌─⊷ *DATABASE*
+▢ .listcmd
+▢ .setcmd <txt>
+└───────────
+
+┌─⊷ *OWNER*
+▢ .expired <days>
+▢ .addprem <@tag>
+▢ .banchat
+▢ .listban
+▢ .ban @user
+▢ .tx
+▢ .cleartmp
+▢ .delexpired
+▢ .delprem @user
+▢ .getplugin <name file>
+▢ .getfile <name file>
+▢ .join <chat.whatsapp.com> <dias>
+▢ .reset <54xxx>
+▢ .restart
+▢ .unbanchat
+▢ .unban @user
+▢ .update
+└───────────
+
+┌─⊷ *ADVANCED*
+▢ >
+▢ =>
+▢ $
+└───────────  
+
+Bot has more than 300 commands and i am lazy to write all
+`
+    /*let pp = './src/khadherinc.jpg'
+    conn.sendButton(m.chat, m2, '▢ VECTOR ┃ ᴮᴼᵀ\n▢ Follow on Instagram\nhttps://www.instagram.com/abd_khadher___\n', pp, [
+      ['⏍ Info', `${usedPrefix}botinfo`],
+      ['⌬ Groups', `${usedPrefix}gpkdr`]
+    ],m, rpyt) */
+    conn.sendMessage(m.chat,{text: m2}, m.sender)
 }
 
-handler.help = ['menu2']
+handler.help = ['audios']
 handler.tags = ['main']
-handler.command = ['menu2'] 
-handler.register = true
+handler.command = ['menu2', 'help2', 'h2'] 
+
 export default handler
