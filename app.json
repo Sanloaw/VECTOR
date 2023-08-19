@@ -3,7 +3,7 @@
   "description": " WhatsApp Bot",
   "repository": "https://github.com/khadherinc/VECTOR",
   "logo": "https://pbxt.replicate.delivery/VeNXOQLbg1VKBa4Y5hrVam5kjDfYPTX0ekzTIompeezUWfiWE/out.png",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "VECTOR", "GURU-bot-md", "GURU-bot"],
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "VECTOR", "khadherinc", "khadher"],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
