@@ -62,7 +62,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
         const dl_url = await yt.video[q].download();
         const ttl = await yt.title;
         const size = await yt.video[q].fileSizeH;
-        await await conn.sendMessage(m.chat, {document: {url: dl_url}, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `▢ 𝚃𝙸𝚃𝚄𝙻𝙾: ${ttl}\n▢ 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾: ${size}`, thumbnail: await fetch(yt.thumbnail)}, {quoted: m});
+        await await conn.sendMessage(m.chat, {document: {url: dl_url}, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `▢ TITLE: ${ttl}\n▢ SIZE OF AUDIO: ${size}`, thumbnail: await fetch(yt.thumbnail)}, {quoted: m});
       } catch {
         try {
           const mediaa = await ytMp4(yt_play[0].url);
@@ -75,7 +75,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
             const n2 = lolh.result.link;
             const n3 = lolh.result.size;
             const n4 = lolh.result.thumbnail;
-            await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `▢ 𝚃𝙸𝚃𝚄𝙻𝙾: ${n}\n▢ 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾: ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
+            await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `▢ TITLE: ${n}\n▢ SIZE OF VIDEO: ${n3}`, thumbnail: await fetch(n4)}, {quoted: m});
           } catch {
             await conn.reply(m.chat, '*[❗] UNABLE TO DOWNLOAD VIDEO*', m);
           }
@@ -86,7 +86,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     throw '*[❗𝐈𝐍𝐅𝐎❗] Please, try again in a few minutes*';
   }
 };
-handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
+handler.help = ['play3', 'play4'].map((v) => v + ' < URL >');
 handler.tags = ['downloader'];
 handler.command = /^(playdoc|playdoc2|play3|play4)$/i;
 export default handler;
@@ -201,7 +201,8 @@ async function ytPlayVid(query) {
   });
 }
 
-
+THANKS TO SPANIOLA 
+BY KHADER
 // import { youtubeSearch } from '@bochilteam/scraper'
 // import fetch from 'node-fetch'
 // let handler = async (m, { conn, command, text, usedPrefix }) => {
