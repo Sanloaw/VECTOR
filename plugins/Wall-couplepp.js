@@ -8,6 +8,7 @@ let handler = async (m, { conn }) => {
   await conn.sendFile(m.chat, cowi, '', '_Male♂️_', m)
   let ciwi = await(await fetch(cita.cewe)).buffer()
   await conn.sendFile(m.chat, ciwi, '', '_Female♀️_', m)
+  conn.sendButton(m.chat, "*Messi*", author, url, [['⚽ NEXT ⚽', `${usedPrefix + command}`]], m)}
 }
 handler.help = ['ppcouple', 'ppcp']
 handler.tags = ['internet']
